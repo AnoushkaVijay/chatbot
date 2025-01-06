@@ -1,2 +1,8 @@
 streamlit
 openai
+langchain==0.3.13
+langchain-community==0.3.13
+langchain-core==0.3.28
+langchain-openai==0.2.14
+pinecone==5.4.2
+langchain-text-splitters
