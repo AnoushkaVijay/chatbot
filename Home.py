@@ -21,7 +21,7 @@ log_in, sign_up = st.tabs(["Log In", "Sign Up"])
 with sign_up:
     st.header("Please Sign Up")
     with st.form("SignIn Form"):
-        username = st.text_input("UserEmail", placeholder = "Enter your Email Address")
+        username = st.text_input("User Email", placeholder = "Enter your Email Address")
         password = st.text_input("Password", placeholder = "Enter your password", type = "password")
         re_enter_password = st.text_input("Re-Enter Your Password", placeholder = "Enter your password", type = "password")
 
