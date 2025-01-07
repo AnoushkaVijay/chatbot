@@ -46,7 +46,7 @@ with log_in:
     st.header("Please Log In")
 
     with st.form("LogIn Form"):
-        username = st.text_input("UserEmail", placeholder = "Enter your Email Address")
+        username = st.text_input("User Email", placeholder = "Enter your Email Address")
         password = st.text_input("Password", placeholder = "Enter your password", type = "password")
 
         submitted = st.form_submit_button("LogIn")
